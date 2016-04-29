@@ -1,36 +1,37 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-int main()
-{
-    int x,say;
-   int toplam_1_sayisi=0;
-   int toplam_2_sayisi=0;
-   int toplam_3_sayisi=0;
-   int toplam_4_sayisi=0;
-   int toplam_5_sayisi=0;
-   int toplam_6_sayisi=0;
-    for(x=1;x<=100000;x++)
-    {
-
-    say=1+rand()%6;
-    switch(say)
-    {
-        case 1: toplam_1_sayisi++;break;
-        case 2: toplam_2_sayisi++;break;
-        case 3: toplam_3_sayisi++;break;
-        case 4: toplam_4_sayisi++;break;
-        case 5: toplam_5_sayisi++;break;
-        case 6: toplam_6_sayisi++;break;
-    }
-    }
-    printf("sayı/tolasılık\n");
-    printf("-----------------------------------------\n");
-    printf("1\t%.2f\n",toplam_1_sayisi/1000.0);
-        printf("2\t%.2f\n",toplam_2_sayisi/1000.0);
-            printf("3\t%.2f\n",toplam_3_sayisi/1000.0);
-                printf("4\t%.2f\n",toplam_4_sayisi/1000.0);
-                    printf("5\t%.2f\n",toplam_5_sayisi/1000.0);
-                        printf("6\t%.2f\n",toplam_6_sayisi/1000.0);
-    return 0;
-}
+/* Furkan Metin OĞUZ tarafından yapılmıştır */
+2	#include <stdio.h>
+3	#include <stdlib.h>
+4	#include <time.h>
+5	int main()
+6	{
+7	    int x,say;
+8	   int toplam_1_sayisi=0;
+9	   int toplam_2_sayisi=0;
+10	   int toplam_3_sayisi=0;
+11	   int toplam_4_sayisi=0;
+12	   int toplam_5_sayisi=0;
+13	   int toplam_6_sayisi=0;
+14	    for(x=1;x<=100000;x++)
+15	    {
+16	
+17	    say=1+rand()%6;
+18	    switch(say)
+19	    {
+20	        case 1: toplam_1_sayisi++;break;
+21	        case 2: toplam_2_sayisi++;break;
+22	        case 3: toplam_3_sayisi++;break;
+23	        case 4: toplam_4_sayisi++;break;
+24	        case 5: toplam_5_sayisi++;break;
+25	        case 6: toplam_6_sayisi++;break;
+26	    }
+27	    }
+28	    printf("sayı/tolasılık\n");
+29	    printf("-----------------------------------------\n");
+30	    printf("1\t%.2f\n",toplam_1_sayisi/1000.0);
+31	        printf("2\t%.2f\n",toplam_2_sayisi/1000.0);
+32	            printf("3\t%.2f\n",toplam_3_sayisi/1000.0);
+33	                printf("4\t%.2f\n",toplam_4_sayisi/1000.0);
+34	                    printf("5\t%.2f\n",toplam_5_sayisi/1000.0);
+35	                        printf("6\t%.2f\n",toplam_6_sayisi/1000.0);
+36	    return 0;
+37	}
